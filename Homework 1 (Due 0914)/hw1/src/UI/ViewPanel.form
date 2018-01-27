@@ -1,0 +1,773 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="PersonPanel" alignment="0" max="32767" attributes="0"/>
+          <Component id="LicensePanel" alignment="0" max="32767" attributes="0"/>
+          <Component id="CreditCardPanel" alignment="0" max="32767" attributes="0"/>
+          <Component id="AddressPanel" alignment="0" max="32767" attributes="0"/>
+          <Component id="FinancialAccPanel" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="PersonPanel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="LicensePanel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="CreditCardPanel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="AddressPanel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="FinancialAccPanel" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="PersonPanel">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="cc" red="cc" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="personalInfoLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Component id="DOBLabel" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="DOBtxt" min="-2" pref="95" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="FirstNameLabel" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                                      <Component id="FirstNameTxt" min="-2" pref="95" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="LastNameLabel" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                                      <Component id="LastNameTxt" min="-2" pref="95" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="GenderLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="AgeLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="GenderTxt" alignment="0" pref="104" max="32767" attributes="0"/>
+                              <Component id="AgeTxt" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="-2" pref="111" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="ImageLabel" min="-2" max="-2" attributes="0"/>
+                      <Component id="ProfileLabel" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="personalInfoLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="ProfileLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="FirstNameTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="FirstNameLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="GenderLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="GenderTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="LastNameTxt" alignment="0" max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="LastNameLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="AgeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="AgeTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="DOBtxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="DOBLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="ImageLabel" min="-2" pref="112" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JTextField" name="DOBtxt">
+        </Component>
+        <Component class="javax.swing.JTextField" name="AgeTxt">
+        </Component>
+        <Component class="javax.swing.JTextField" name="GenderTxt">
+        </Component>
+        <Component class="javax.swing.JTextField" name="FirstNameTxt">
+        </Component>
+        <Component class="javax.swing.JTextField" name="LastNameTxt">
+        </Component>
+        <Component class="javax.swing.JLabel" name="FirstNameLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="First Name"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="LastNameLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Last Name"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="DOBLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Date of Birth"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="GenderLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Gender"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="AgeLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Age"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="personalInfoLabel">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Sylfaen" size="11" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Personal Information"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="ProfileLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Profile Picture"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="ImageLabel">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/UI/Elizabeth_fullbody.png"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="LicensePanel">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="cc" red="cc" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="LicenseInfoLabel" alignment="0" min="-2" pref="112" max="-2" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="LicenseClassLabel" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="LicenseClassTxt" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="LicenseNoLabel" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="LicenseNoTxt" min="-2" pref="97" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="StateLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="IssueDateLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="IssueDateTxt" alignment="0" max="32767" attributes="0"/>
+                              <Component id="StateTXT" alignment="0" pref="106" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="ExpirationDateLabel" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="ExpirationDateTxt" min="-2" pref="91" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="LicenseInfoLabel" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="LicenseNoLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="LicenseNoTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="IssueDateLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="IssueDateTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="ExpirationDateLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="ExpirationDateTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                          <Component id="LicenseClassTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="StateLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="StateTXT" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="LicenseClassLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="20" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="LicenseInfoLabel">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Sylfaen" size="11" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="License Info"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="LicenseNoLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="License No."/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="LicenseNoTxt">
+        </Component>
+        <Component class="javax.swing.JLabel" name="IssueDateLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Issue Date"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="IssueDateTxt">
+        </Component>
+        <Component class="javax.swing.JLabel" name="ExpirationDateLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Expiration Date"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="ExpirationDateTxt">
+        </Component>
+        <Component class="javax.swing.JLabel" name="LicenseClassLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="License Class"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="LicenseClassTxt">
+        </Component>
+        <Component class="javax.swing.JLabel" name="StateLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="State"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="StateTXT">
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="CreditCardPanel">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="cc" red="cc" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="ccInfoLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="BillingAddLabel" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="BillingAddTxt" min="-2" pref="308" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="CardNoLabel" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                                  <Component id="CardNoTxt" min="-2" pref="98" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
+                                  <Component id="ExpDateLabel" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                                  <Component id="ExpDateTxt" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="-2" pref="52" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="PhoneLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                                  <Component id="CVVlabel" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="CVVtxt" alignment="0" max="32767" attributes="0"/>
+                              <Component id="PhoneTxt" alignment="0" min="-2" pref="85" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="111" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="ccInfoLabel" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="CardNoLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="CardNoTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="ExpDateLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="ExpDateTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="CVVlabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="CVVtxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="BillingAddLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="BillingAddTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="PhoneLabel" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+                      <Component id="PhoneTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="20" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="ccInfoLabel">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Sylfaen" size="11" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Credit Card Info"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="CardNoLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Card No"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="CardNoTxt">
+        </Component>
+        <Component class="javax.swing.JLabel" name="ExpDateLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Exp Date"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="ExpDateTxt">
+          <Properties>
+            <Property name="toolTipText" type="java.lang.String" value=""/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="CVVlabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="CVV"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="CVVtxt">
+        </Component>
+        <Component class="javax.swing.JLabel" name="BillingAddLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Billing Address"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="BillingAddTxt">
+        </Component>
+        <Component class="javax.swing.JLabel" name="PhoneLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Phone No."/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="PhoneTxt">
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="AddressPanel">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="cc" red="cc" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="AddressLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="StreetAddLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="AddStateLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="StreetAddTxt" alignment="0" max="32767" attributes="0"/>
+                              <Component id="AddStateTxt" alignment="0" pref="98" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="AptNoLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="CountryLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                              <Component id="CountryTxt" alignment="0" pref="111" max="32767" attributes="0"/>
+                              <Component id="AptNoTxt" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                          <Component id="ZipLabel" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="ZipTxt" min="-2" pref="90" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="AddressLabel" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="StreetAddLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="StreetAddTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="AptNoLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="AptNoTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="ZipLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="ZipTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="AddStateLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="AddStateTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="CountryLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="CountryTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="AddressLabel">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Sylfaen" size="11" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Address"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="StreetAddLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Street Address"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="StreetAddTxt">
+        </Component>
+        <Component class="javax.swing.JLabel" name="AptNoLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Apt No."/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="AptNoTxt">
+        </Component>
+        <Component class="javax.swing.JLabel" name="AddStateLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="State"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="AddStateTxt">
+        </Component>
+        <Component class="javax.swing.JLabel" name="CountryLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Country"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="CountryTxt">
+        </Component>
+        <Component class="javax.swing.JLabel" name="ZipLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="ZipCode"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="ZipTxt">
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="FinancialAccPanel">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="cc" red="cc" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="FinancialAccLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="CheckingAccNoLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="CheckingDebtLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="SavingAccNoLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="SavingDebtLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="CheckingAccNoTxt" alignment="0" max="32767" attributes="0"/>
+                              <Component id="CheckingDebtTxt" alignment="0" max="32767" attributes="0"/>
+                              <Component id="SavingAccNoTxt" alignment="0" max="32767" attributes="0"/>
+                              <Component id="SavingDebtTxt" alignment="0" pref="94" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="CheckingCreaDateLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="CheckingCreditLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="CheckingCreaDateTxt" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="CheckingCreditTxt" alignment="0" pref="113" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="SavingCreaDateLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="SavingCreditLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="SavingCreaDateTxt" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="SavingCreditTxt" alignment="0" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="CheckingActiveLabel" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="CheckingStillActiveTxt" min="-2" pref="87" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="SavingStillActiveLabel" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="SavingStillActiveTxt" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="48" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="FinancialAccLabel" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="CheckingAccNoLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="CheckingAccNoTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="CheckingCreaDateLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="CheckingCreaDateTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="CheckingActiveLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="CheckingStillActiveTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="CheckingDebtLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="CheckingDebtTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="CheckingCreditLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="CheckingCreditTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="SavingAccNoLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="SavingAccNoTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="SavingCreaDateLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="SavingCreaDateTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="SavingStillActiveLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="SavingStillActiveTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="SavingDebtLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="SavingDebtTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="SavingCreditLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="SavingCreditTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="FinancialAccLabel">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Sylfaen" size="11" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Financial Account"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="CheckingAccNoLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Checking Account No."/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="CheckingAccNoTxt">
+        </Component>
+        <Component class="javax.swing.JLabel" name="CheckingCreaDateLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Creation Date"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="CheckingCreaDateTxt">
+        </Component>
+        <Component class="javax.swing.JLabel" name="CheckingActiveLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Still Active"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="CheckingStillActiveTxt">
+        </Component>
+        <Component class="javax.swing.JLabel" name="CheckingDebtLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Debt"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="CheckingDebtTxt">
+        </Component>
+        <Component class="javax.swing.JLabel" name="CheckingCreditLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Credit"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="CheckingCreditTxt">
+        </Component>
+        <Component class="javax.swing.JLabel" name="SavingAccNoLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Saving Account No."/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="SavingAccNoTxt">
+        </Component>
+        <Component class="javax.swing.JLabel" name="SavingCreaDateLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Creation Date"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="SavingCreaDateTxt">
+        </Component>
+        <Component class="javax.swing.JLabel" name="SavingStillActiveLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Still Active"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="SavingStillActiveTxt">
+        </Component>
+        <Component class="javax.swing.JLabel" name="SavingDebtLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Debt"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="SavingDebtTxt">
+        </Component>
+        <Component class="javax.swing.JLabel" name="SavingCreditLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Credit"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="SavingCreditTxt">
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(yes/no)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="(yes/no)"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
